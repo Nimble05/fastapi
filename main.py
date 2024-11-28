@@ -43,7 +43,7 @@ class TodoResponse(TodoBase):
     id: int
 
     class config:
-        orm_mode = True
+        from_attributes = True
 
 # Database Injection
 def get_db():
