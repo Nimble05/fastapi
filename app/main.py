@@ -4,6 +4,8 @@ from sqlalchemy import create_engine, Column, Integer, String, Boolean, Date
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 
+from database import Base, engine
+
 # Initialize FastAPI
 app = FastAPI()
 
