@@ -14,6 +14,6 @@ class Todo(Base):
 class User(Base):
     __tablename__ = "Lee_bo_xun"
     id = Column(Integer, primary_key=True, index=True)
-    username = Column(String, nullable=True)
-    password = Column(String, nullable=True)
-    email = Column(String, nullable=True)
+    username = Column(String, nullable=False)
+    password = Column(String, nullable=False)
+    email = Column(String, unique=True, nullable=False)
