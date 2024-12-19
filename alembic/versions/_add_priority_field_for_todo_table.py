@@ -1,7 +1,7 @@
 """add priority field for todo table
 
 Revision ID: 
-Revises: 
+Revises: 43c51b152da9
 Create Date: 2024-12-19 15:28:33.571290
 
 """
@@ -13,7 +13,7 @@ import sqlalchemy as sa
 
 # revision identifiers, used by Alembic.
 revision: str = ''
-down_revision: Union[str, None] = ''
+down_revision: Union[str, None] = '43c51b152da9'
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
 
