@@ -90,13 +90,11 @@
             "version": "==1.2.2"
         },
         "fastapi": {
-            "extras": [
-                "standard"
-            ],
             "hashes": [
                 "sha256:9ec46f7addc14ea472958a96aae5b5de65f39721a46aaf5705c480d9a8b76654",
                 "sha256:e9240b29e36fa8f4bb7290316988e90c381e5092e0cbe84e7818cc3713bcf305"
             ],
+            "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==0.115.6"
         },
@@ -105,11 +103,10 @@
                 "standard"
             ],
             "hashes": [
-                "sha256:2835a8f0c44b68e464d5cafe5ec205265f02dc1ad1d640db33a994ba3338003b",
-                "sha256:43288efee46338fae8902f9bf4559aed3aed639f9516f5d394a7ff19edcc8faf"
+                "sha256:d30e1239c6f46fcb95e606f02cdda59a1e2fa778a54b64686b3ff27f6211ff9f",
+                "sha256:e94d847524648c748a5350673546bbf9bcaeb086b33c24f2e82e021436866a46"
             ],
-            "markers": "python_version >= '3.8'",
-            "version": "==0.0.6"
+            "version": "==0.0.5"
         },
         "greenlet": {
             "hashes": [
