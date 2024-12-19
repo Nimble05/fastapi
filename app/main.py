@@ -6,7 +6,7 @@ from .routers import router
 app = FastAPI()
 
 # Initialize
-Base.metadata.create_all(bind=engine)
+#Base.metadata.create_all(bind=engine)
 
 #Reister Router
 app.include_router(router=router, prefix="/api", tags=["todos"])
