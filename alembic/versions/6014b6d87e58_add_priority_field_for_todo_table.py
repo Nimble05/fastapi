@@ -1,6 +1,6 @@
 """add priority field for todo table
 
-Revision ID: 6014b6d87e58
+Revision ID: 94147e6a4980
 Revises: 43c51b152da9
 Create Date: 2024-12-19 15:28:33.571290
 
